@@ -71,8 +71,6 @@ on init
 
     write /proc/sys/vm/page-cluster 0
 
-    symlink /vendor /system/vendor
-
 on fs
     mount_all ./fstab.bullhead
     swapon_all ./fstab.bullhead
@@ -276,7 +274,7 @@ service perfd /system/bin/perfd
     group system
     writepid /dev/cpuset/system-background/tasks
 
-service qti /system/vendor/bin/qti
+service qti /vendor/bin/qti
     class main
     user radio
     group radio net_raw diag usb net_admin
