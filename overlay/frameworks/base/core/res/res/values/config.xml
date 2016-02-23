@@ -358,4 +358,10 @@
         <item>SUPL_ES=0</item>
     </string-array>
 
+    <!-- Flag specifying whether Doze is available on device -->
+    <bool name="config_enableAutoPowerModes">true</bool>
+
+    <!-- Flag specifying whether WiFi display is available on device -->
+    <bool name="config_enableWifiDisplay">true</bool>
+
 </resources>
