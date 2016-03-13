@@ -369,6 +369,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.data_con_rprt=true
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.ril.force_eri_from_xml=true \
+    ro.telephony.get_imsi_from_sim=true
+
 # Set bluetooth soc to rome
 PRODUCT_PROPERTY_OVERRIDES += \
     qcom.bluetooth.soc=rome
