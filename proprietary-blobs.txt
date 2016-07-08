@@ -111,11 +111,16 @@
 /system/priv-app/DiagMon/DiagMon.apk
 /system/priv-app/DMConfigUpdate/DMConfigUpdate.apk
 /system/priv-app/DMService/DMService.apk
+/system/priv-app/DMService/lib/arm/libdmengine.so
+/system/priv-app/DMService/lib/arm/libdmjavaplugin.so
 /system/priv-app/HotwordEnrollment/HotwordEnrollment.apk
 /system/priv-app/LifeTimerService/LifeTimerService.apk
 /system/priv-app/SprintDM/SprintDM.apk
+/system/priv-app/Entitlement/Entitlement.apk
 /vendor/app/datastatusnotification/datastatusnotification.apk
 /vendor/app/ims/ims.apk
+/vendor/app/ims/lib/arm64/libimscamera_jni.so
+/vendor/app/ims/lib/arm64/libimsmedia_jni.so
 /vendor/bin/mm-qcamera-daemon
 /vendor/bin/qseecomd
 /vendor/bin/qti
