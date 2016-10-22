@@ -26,6 +26,10 @@ TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a53.a57
 
+TARGET_KERNEL_CONFIG := bullhead_defconfig
+TARGET_KERNEL_ARCH := arm64
+TARGET_KERNEL_SOURCE := kernel/lge/bullhead
+
 ENABLE_CPUSETS := true
 
 TARGET_NO_BOOTLOADER := true
