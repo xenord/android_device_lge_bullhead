@@ -101,4 +101,3 @@ system/lib/libloc_core.so:qcom
 system/lib/libloc_eng.so:qcom
 system/lib/libwifi-hal-qcom.so:qcom
 system/xbin/iperf3:qcom
-IMAGES/vendor.img:lge
